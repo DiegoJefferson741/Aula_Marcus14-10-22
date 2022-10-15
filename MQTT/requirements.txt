@@ -1,0 +1,5 @@
+influxdb
+paho_mqtt
+psutil
+python-dotenv
+PyYAML
