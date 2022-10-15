@@ -1,0 +1,35 @@
+Abrir o Grafana
+Abir navegador:  http://localhost:3000/?orgId=1
+
+//criar o banco de dados
+complete // add your first data source
+influxDB
+nome:
+URL //pegar o ipv4 do prompt(ipconfig) http://172.24.16.1:8086
+
+Basic auth
+
+database iot2
+user admin
+pasword 123
+
+
+//Criar o Dasboard
+create your first dashboard
+create a painel
+Clicar no lapis do lado da query:
+Digitar:
+SELECT time, cpu_freq FROM iot2.autogen.cpu
+
+SELECT time,total,used FROM iot2.autogen.memoria
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+abrio o promp
+cd Desktop //entrar na area d etrabalho
+cd MQTT //entrar na pasta do MQTT
+docker-compose up //executar o arquivo docker-compose
+
+------------------------------------------------
+abrio o promp2   
+cd Desktop //entrar na area de trabalho
+cd MQTT  // entrar ana pasta do MQTT
+pip install -r requirements.txt //intalar os requerimentos
+
+-------------------------------------------------
+
+
+Executar o arquivo subscriber.py // vai aparecer, Conectado ao Broker MQTT!
+
+Abrir o chonograf:
+Abir navegador: http://localhost:8888/sources/0/status
+
+Digitarno explore do chonogranf: select * from iot2.autogen.cpu
+
+Abrir o Grafana
+Abir navegador:  http://localhost:3000/?orgId=1
+
+
+-----------------------------------------------------------------------
+
+Abrir novo prompt digitar:
+
+ipconfig // ver as configurações e endereços
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
